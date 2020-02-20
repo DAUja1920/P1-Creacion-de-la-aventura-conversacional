@@ -32,13 +32,13 @@ undum.game.situations = {
         "<h1>Comienzo</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
         Era un tarde de sabado cuando tu mejor amigo Avellaneda te envia un mensaje de WhatsApp \
-		al móvil en el que exclama: ¿Salimos esta noche?. A lo que tu no puedes negarte contestando:\
-		Genial, aunque me tendrás que dejar dinero, porque mi monedero está más vacío que el amor de ella\
-		. Hablando de la propuesta de esta noche, deciden si decírselo a: \
-		<p class='transient'><a href='safu'>Safu</a> que está mal de la \
-		cabeza o si mejor decírselo a <a href='david'> David</a>, que es una persona más formal\
+		al movil en el que exclama: Salimos esta noche?. A lo que tu no puedes negarte contestando:\
+		Genial, aunque me tendras que dejar dinero, porque mi monedero esta mas vacio que el amor de ella\
+		. Hablando de la propuesta de esta noche, deciden si decirselo a: \
+		<p class='transient'><a href='safu'>Safu</a> que esta mal de la \
+		cabeza o si mejor decirselo a <a href='david'> David</a>, que es una persona más formal\
         \
-        <p class='transient'>Click <a href='hub'>para comenzar...\</a></p>"
+		"
     ),
 
     
@@ -51,8 +51,8 @@ undum.game.situations = {
         displayOrder: 1
     }),
 	"safu": new undum.SimpleSituation(
-        "<p>Safu está dispuesto a salir esta noche, proponiendo comprar 3 botellas de Absenta,\
-		para 4 o 5 personas más.Dispuestos a marcharme de casa, tenemos que preparar 2 cosas indispensables,\
+        "<p>Safu esta dispuesto a salir esta noche, proponiendo comprar 3 botellas de Absenta,\
+		para 4 o 5 personas mas.Dispuestos a marcharme de casa, tenemos que preparar 2 cosas indispensables,\
 		mencionadas anteriormente. Una vez cogidos, nos disponemos a ir al piso de nuestro amigo\
 		Avellaneda, con el objetivo de conseguir una buena borrachera.\
 		Continuando la noche, llega un momento en el que te proponen si ir a <a href='kharma'> Kharma</a>, o <a href='bebiendo'> seguir bebiendo.</a>\
@@ -64,8 +64,8 @@ undum.game.situations = {
         }
 ),
 "david": new undum.SimpleSituation(
-        "<p>David está dispuesto a salir esta noche, proponiendo comprar 3 litros de Alcampo, para 4 o 5 personas más.,\
-		para 4 o 5 personas más.Dispuestos a marcharme de casa, tenemos que preparar 2 cosas indispensables,\
+        "<p>David esta dispuesto a salir esta noche, proponiendo comprar 3 litros de Alcampo, para 4 o 5 personas mas.,\
+		para 4 o 5 personas mas.Dispuestos a marcharme de casa, tenemos que preparar 2 cosas indispensables,\
 		mencionadas anteriormente. Una vez cogidos, nos disponemos a ir al piso de nuestro amigo\
 		Avellaneda, con el objetivo de conseguir una buena borrachera.\
 		Continuando la noche, llega un momento en el que te proponen si ir a <a href='kharma'> Kharma</a>, o <a href='bebiendo'> seguir bebiendo.\
@@ -77,8 +77,8 @@ undum.game.situations = {
         }
 ),
 "bebiendo": new undum.SimpleSituation(
-        "<p>Te has pasado con el alcohol, por lo que te da un coma etílico y no lo superas.\
-		Lo siento, estás muerto. F. \
+        "<p>Te has pasado con el alcohol, por lo que te da un coma etilico y no lo superas.\
+		Lo siento, estas muerto. F. \
 		 </p>",
 		 {
             heading: "Seguir bebiendo",
@@ -87,7 +87,7 @@ undum.game.situations = {
         }
 ),
 "kharma": new undum.SimpleSituation(
-        "<p>Decides ir a un antro lleno de cincuentonas bailando reggaeton. De esto que estás perreando, fijas la vista en una chica de unos 21 años, la cual te devuelve la mirada. Se te acerca poco a poco, haciendo tú lo mismo. Nervioso,\
+        "<p>Decides ir a un antro lleno de cincuentonas bailando reggaeton. De esto que estas perreando, fijas la vista en una chica de unos 21 años, la cual te devuelve la mirada. Se te acerca poco a poco, haciendo tu lo mismo. Nervioso,\
 		tienes que decidir si <a href='bailar'> bailar con ella.</a> o preguntarle sobre el <a href='clima'> tiempo meteorológico en Argentina.</a>\
 		 </p>",
 		 {
@@ -97,7 +97,7 @@ undum.game.situations = {
         }
 ),
 "clima": new undum.SimpleSituation(
-        "<p>La adolescente se sorprende porque sus padres son de Argentina, entabláis una conversación a ritmo de Tusa, decides darle tu número de teléfono , y os despedís con un emotivo beso en los labios. Tus amigos se sorprenden porque tienes 40 años, lo cual supone una diferencia de edad considerable que podría acabar en denuncia.FIN. \
+        "<p>La adolescente se sorprende porque sus padres son de Argentina, entablais una conversacion a ritmo de Tusa, decides darle tu numero de telefono , y os despedis con un emotivo beso en los labios. Tus amigos se sorprenden porque tienes 40 años, lo cual supone una diferencia de edad considerable que podria acabar en denuncia.FIN. \
 		 </p>",
 		 {
             heading: "Preguntar sobre el Clima de Argentina",
@@ -117,7 +117,7 @@ undum.game.situations = {
 ),
     
     links: new undum.SimpleSituation(
-        "<p>Safu está dispuesto a salir esta noche, proponiendo comprar 3 botellas de Absenta,\
+        "<p>Safu esta dispuesto a salir esta noche, proponiendo comprar 3 botellas de Absenta,\
 		para 4 o 5 personas más.Dispuestos a marcharme de casa, tenemos que preparar 2 cosas indispensables,\
 		mencionadas anteriormente. Una vez cogidos, nos disponemos a ir al piso de nuestro amigo\
 		Avellaneda, con el objetivo de conseguir una buena borrachera.\
